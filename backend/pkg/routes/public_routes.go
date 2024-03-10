@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/create-go-app/net_http-go-template/app/controllers"
+	"github.com/goququ/shurl/app/controllers"
 	"github.com/gorilla/mux"
 )
 

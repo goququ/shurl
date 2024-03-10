@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/create-go-app/net_http-go-template/pkg/utils"
+	"github.com/goququ/shurl/pkg/utils"
 	"github.com/gorilla/mux"
 
 	httpSwagger "github.com/swaggo/http-swagger"

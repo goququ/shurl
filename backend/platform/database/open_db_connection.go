@@ -1,6 +1,6 @@
 package database
 
-import "github.com/create-go-app/net_http-go-template/app/queries"
+import "github.com/goququ/shurl/app/queries"
 
 // Queries struct for collect all app queries.
 type Queries struct {

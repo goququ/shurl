@@ -4,7 +4,7 @@ APP_NAME = apiserver
 BUILD_DIR = $(PWD)/build
 DB_TEST_DATA = $(PWD)/platform/database/test_data
 MIGRATIONS_FOLDER = $(PWD)/platform/migrations
-DATABASE_URL = postgres://postgres:password@cgapp-postgres/postgres?sslmode=disable
+DATABASE_URL = postgres://postgres:password@127.0.0.1:5432/postgres?sslmode=disable
 
 clean:
 	rm -rf ./build
@@ -63,7 +63,7 @@ docker.postgres:
 		-e POSTGRES_USER=postgres \
 		-e POSTGRES_PASSWORD=password \
 		-e POSTGRES_DB=postgres \
-		-v ${HOME}/dev-postgres/data/:/var/lib/postgresql/data \
+		-v ${DB_TEST_DATA}:/var/lib/postgresql/data \
 		-p 5432:5432 \
 		postgres
 

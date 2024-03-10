@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/create-go-app/net_http-go-template/pkg/configs"
-	"github.com/create-go-app/net_http-go-template/pkg/routes"
-	"github.com/create-go-app/net_http-go-template/pkg/utils"
+	"github.com/goququ/shurl/pkg/configs"
+	"github.com/goququ/shurl/pkg/routes"
+	"github.com/goququ/shurl/pkg/utils"
 	"github.com/gorilla/mux"
 
-	_ "github.com/create-go-app/net_http-go-template/docs" // load Swagger docs
-	_ "github.com/joho/godotenv/autoload"                  // load .env file automatically
+	_ "github.com/goququ/shurl/docs"      // load Swagger docs
+	_ "github.com/joho/godotenv/autoload" // load .env file automatically
 )
 
 // @title API

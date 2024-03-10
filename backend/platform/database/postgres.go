@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/create-go-app/net_http-go-template/pkg/utils"
+	"github.com/goququ/shurl/pkg/utils"
 	"github.com/jmoiron/sqlx"
 
 	_ "github.com/jackc/pgx/v4/stdlib" // load pgx driver for PostgreSQL

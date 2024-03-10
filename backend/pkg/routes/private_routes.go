@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	jwtmiddleware "github.com/auth0/go-jwt-middleware"
-	"github.com/create-go-app/net_http-go-template/app/controllers"
-	"github.com/create-go-app/net_http-go-template/pkg/configs"
+	"github.com/goququ/shurl/app/controllers"
+	"github.com/goququ/shurl/pkg/configs"
 	"github.com/gorilla/mux"
 )
 

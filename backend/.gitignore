@@ -8,6 +8,7 @@ tmp/
 # Test
 *.out
 *.test
+platform/database/test_data/
 
 # Environment variables
 .env
